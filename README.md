@@ -16,6 +16,6 @@ Oligopoly model, plots, and code adjustments
     git: https://github.com/teeross/algo-collusion-with-duopoly-and-oligopoly
 """
 
-To replicate the results, just run the `main` files for duopoly and oligopoly. To get specific plots, run the plot files.
+To replicate the results, just run the `main` file, adjusting the underlying 'init' file for duopoly or oligopoly as desired.
 
 Please cite if used.
