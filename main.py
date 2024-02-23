@@ -15,6 +15,7 @@ Oligopoly model, plots, and minor code adjustments
     git: https://github.com/teeross/algo-collusion-with-duopoly-and-oligopoly
 """
 
+#the following code is made for the duopoly model, please switch the following .py files to an equivalent of an oligopoly model if desired
 from input.init import model
 from input.qlearning import simulate_game
 import matplotlib.pyplot as plt
