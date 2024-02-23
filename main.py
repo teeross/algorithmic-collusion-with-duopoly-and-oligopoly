@@ -16,13 +16,13 @@ Oligopoly model, plots, and minor code adjustments
 """
 
 #the following code is made for the duopoly model, please switch the following .py files to an equivalent of an oligopoly model if desired
-from input.init import model
+from input.init import model #alternatively change this to init_oligopoly
 from input.qlearning import simulate_game
 import matplotlib.pyplot as plt
 import numpy as np
 
 # Number of simulations
-num_simulations = 1
+num_simulations = 1 #possible to edit the number of simulations as desired
 
 # List to store results of each simulation
 results = []
