@@ -14,7 +14,6 @@ Oligopoly model adjustments in 'init_oligopoly', code adjustments for 'main' and
     Author: Teele Rossi
     date: 21/10/2023
     git: https://github.com/teeross/algo-collusion-with-duopoly-and-oligopoly
-"""
 
 To replicate the results, just run the `main` file, adjusting the underlying 'init' file for duopoly or oligopoly as desired.
 
