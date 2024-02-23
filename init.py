@@ -1,5 +1,5 @@
 """
-Model of algorithms and competition
+Duopoly model
 """
 
 import numpy as np
