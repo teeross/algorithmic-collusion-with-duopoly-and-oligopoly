@@ -4,14 +4,14 @@ Replication of Artificial Intelligence, Algorithmic Pricing, and Collusion
     by: Calvano, Calzolari, Denicolò (2020) in Python
     at: https://www.aeaweb.org/articles?id=10.1257/aer.20190623
 
-Original code for duopoly model:
-    author: Matteo Courthoud
+Original code for duopoly model.
+    Author: Matteo Courthoud
     date: 07/05/2021
     git: https://github.com/matteocourthoud, https://matteocourthoud.github.io/
 
 Code additions and modifications:
-Oligopoly model adjustments in 'init_oligopoly', code adjustments for 'main' and 'qlearning' to be able to plot desired features in both duopoly and oligopoly models
-    author: Teele Rossi
+Oligopoly model adjustments in 'init_oligopoly', code adjustments for 'main' and 'qlearning' to be able to plot desired features in both duopoly and oligopoly models.
+    Author: Teele Rossi
     date: 21/10/2023
     git: https://github.com/teeross/algo-collusion-with-duopoly-and-oligopoly
 """
