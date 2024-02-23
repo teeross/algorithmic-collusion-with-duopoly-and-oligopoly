@@ -1,4 +1,4 @@
-# Algorithmic Collusion Replication
+# Algorithmic Collusion Replication with Duopoly and/or Oligopoly
 
 Replication of Artificial Intelligence, Algorithmic Pricing, and Collusion
     by: Calvano, Calzolari, Denicolò (2020) in Python
