@@ -38,7 +38,7 @@ class model(object):
     def __init__(self, **kwargs):
         """Initialize game with default values"""
         # Default properties
-        self.n = kwargs.get('n', 3) #in comparison to the original code, we have 3 firms
+        self.n = kwargs.get('n', 3) #in this oligopoly model, n=3 which makes it a triopoly model
         self.alpha = kwargs.get('alpha', 0.15)
         self.beta = kwargs.get('beta', 4e-6)
         self.delta = kwargs.get('delta', 0.95)
