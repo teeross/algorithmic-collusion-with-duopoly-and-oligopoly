@@ -10,7 +10,7 @@ Original code for duopoly model:
     git: https://github.com/matteocourthoud, https://matteocourthoud.github.io/
 
 Code additions and modifications:
-Oligopoly model, plots, and code adjustments
+Oligopoly model adjustments in 'init_oligopoly', code adjustments for 'main' and 'qlearning' to be able to plot desired features in both duopoly and oligopoly models
     author: Teele Rossi
     date: 21/10/2023
     git: https://github.com/teeross/algo-collusion-with-duopoly-and-oligopoly
