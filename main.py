@@ -11,7 +11,7 @@ Original code for duopoly model:
 Code additions and modifications:
 Oligopoly model, code additions and adjustments
     author: Teele Rossi
-    date: 21/10/2023
+    date: 23/02/2024
     git: https://github.com/teeross/algo-collusion-with-duopoly-and-oligopoly
 """
 
