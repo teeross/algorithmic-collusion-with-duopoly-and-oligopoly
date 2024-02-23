@@ -38,7 +38,7 @@ for idx, game_instance in enumerate(results):
     plt.plot(game_instance.Q[0, 0, 0, :], label=f'Simulation {idx + 1}')  # Adjust as needed
 
 plt.legend()
-plt.title("Q-values across Simulations")
+plt.title("Q-values across Simulations") #example titles, possible to modify
 plt.xlabel("Actions")
 plt.ylabel("Q-value")
 plt.show()
