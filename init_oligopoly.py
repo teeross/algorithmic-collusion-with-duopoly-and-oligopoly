@@ -92,7 +92,7 @@ class model(object):
         return A
 
     def init_state(self):
-        """Get state dimension and initial state""" #in comparison to the original code, we have now 3 firms and the state dimension is grown
+        """Get state dimension and initial state""" #in comparison to the duopoly model, state dimension has been expanded in this triopoly model of 3 agents
         sdim = tuple([self.k for _ in range(self.n)])
         s0 = np.zeros(len(sdim)).astype(int)
         return sdim, s0
@@ -104,7 +104,7 @@ class model(object):
         return pi
 
     def init_PI(game):
-        """Initialize Profits""" #this is adjusted for oligopoly model now with 3 firms
+        """Initialize Profits""" #this is adjusted for oligopoly model with 3 agents
         PI = np.zeros(game.sdim + (game.n,))
         for s in product(*[range(i) for i in game.sdim]):
             p = np.asarray(game.A[np.asarray(s)])
