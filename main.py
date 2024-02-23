@@ -9,7 +9,7 @@ Original code for duopoly model:
     git: https://github.com/matteocourthoud, https://matteocourthoud.github.io/
 
 Code additions and modifications:
-Oligopoly model, plots, and minor code adjustments
+Oligopoly model, code additions and adjustments
     author: Teele Rossi
     date: 21/10/2023
     git: https://github.com/teeross/algo-collusion-with-duopoly-and-oligopoly
