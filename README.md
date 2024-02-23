@@ -1,7 +1,7 @@
 # Algorithmic Collusion Replication with Duopoly and Oligopoly models
 
 Replication of Artificial Intelligence, Algorithmic Pricing, and Collusion
-    by: Calvano, Calzolari, Denicolò (2020) in Python
+    by: Calvano, Calzolari, Denicolò (2020) with Python
     at: https://www.aeaweb.org/articles?id=10.1257/aer.20190623
 
 Original code for duopoly model:
