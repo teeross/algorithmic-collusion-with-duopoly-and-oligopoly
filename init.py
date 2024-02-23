@@ -38,7 +38,7 @@ class model(object):
     def __init__(self, **kwargs):
         """Initialize game with default values"""
         # Default properties
-        self.n = kwargs.get('n', 2) #the default n=2 is a duopoly model. Please modify 'n'>2 to run the game in an oligopoly model.
+        self.n = kwargs.get('n', 2) #the default n=2 has two players in an duopoly model
         self.alpha = kwargs.get('alpha', 0.15)
         self.beta = kwargs.get('beta', 4e-6)
         self.delta = kwargs.get('delta', 0.95)
