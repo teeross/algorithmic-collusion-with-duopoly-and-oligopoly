@@ -42,6 +42,7 @@ class model(object):
         self.alpha = kwargs.get('alpha', 0.15)
         self.beta = kwargs.get('beta', 4e-6)
         self.delta = kwargs.get('delta', 0.95) #the discount factor that can be modified (i.e., in the range of: 0.05, 0.5 and 0.95)
+        self.c = kwargs.get('c', 1)        
         self.a = kwargs.get('a', 2)
         self.a0 = kwargs.get('a0', 0)
         self.mu = kwargs.get('mu', 0.25)
