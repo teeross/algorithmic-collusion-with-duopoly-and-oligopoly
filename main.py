@@ -33,7 +33,8 @@ for _ in range(num_simulations):
     _, game_instance, _ = simulate_game(game)  # Breaking apart the tuple
     results.append(game_instance)  # Assuming game_instance contains the Q-values
 
-# Plotting the results, in this case Q-values across simulations. The plotted aspect of the simulation can be modified accordingly as desired. 
+# Plotting Q-values across simulations. 
+# The following can be modified accordingly to plot exploration rates, and profit dynamics over time.
 for idx, game_instance in enumerate(results):
     plt.plot(game_instance.Q[0, 0, 0, :], label=f'Simulation {idx + 1}')  # Adjust as needed
 
