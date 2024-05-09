@@ -16,8 +16,8 @@ Oligopoly model, code additions and adjustments
 """
 
 #the following code is made for the duopoly model, please switch the following .py files to an equivalent of an oligopoly model if desired
-from input.init import model #alternatively change this to init_oligopoly
-from input.qlearning import simulate_game
+from init import model #alternatively change this to init_oligopoly
+from qlearning import simulate_game
 import matplotlib.pyplot as plt
 import numpy as np
 
